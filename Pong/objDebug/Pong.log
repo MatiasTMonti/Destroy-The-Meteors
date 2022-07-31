@@ -1,0 +1,72 @@
+﻿  Ya existe el subdirectorio o el archivo C:\Users\matia\Desktop\FinalDesarrollo1\Pong\binDebug\res\.
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\asteroide.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\explosion.wav
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\gameBackground.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\menuBackground.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\menusong2.ogg
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\Nave1.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\shoot.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\shoot.wav
+  8 archivo(s) copiado(s)
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\lib\lib\raylib.dll
+  1 archivo(s) copiado(s)
+  Ya existe el subdirectorio o el archivo C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\res\.
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\asteroide.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\explosion.wav
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\gameBackground.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\menuBackground.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\menusong2.ogg
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\Nave1.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\shoot.png
+  C:\Users\matia\Desktop\FinalDesarrollo1\Pong\res\shoot.wav
+  8 archivo(s) copiado(s)
+  Gameover.cpp
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\ship.h(3,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(54,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(57,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(59,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(64,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(65,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(67,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(69,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(70,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Gameover.cpp(72,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Menu.cpp
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(66,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(68,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(70,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(72,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(73,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(74,39): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(81,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(82,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(84,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(86,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(87,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(89,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(91,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(92,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(94,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(96,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(97,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Menu.cpp(99,31): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Pause.cpp
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(56,38): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(58,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(60,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(62,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(64,43): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(73,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(74,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(76,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(78,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(79,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(81,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(83,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(84,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(86,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(88,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(89,43): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\matia\Desktop\FinalDesarrollo1\Pong\Pong\Pause.cpp(91,36): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Generando código...
+  Pong.vcxproj -> C:\Users\matia\Desktop\FinalDesarrollo1\Pong\binDebug\Pong.exe
