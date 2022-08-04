@@ -6,11 +6,13 @@
 #include "game.h"
 #include "app.h"
 #include "enemy.h"
+#include "powerup.h"
 
 using namespace app;
 using namespace game;
 using namespace pause;
 using namespace enemy;
+using namespace powerup;
 
 namespace app
 {
@@ -82,7 +84,7 @@ namespace app
 			}
 
 			shipScale = (GetScreenWidth() * 0.10f) / scaleAux;
-			shootScale = (GetScreenWidth() * 0.01f) / scaleAux;
+			shootScale = (GetScreenWidth() * 1.1f) / scaleAux;
 			shootScalePos = { (shootScale * shootImage.width) / 2 ,(shootScale * shootImage.height) / 2 };
 
 			destRec.width = shipTexture.width / 2 * shipScale;
@@ -115,7 +117,7 @@ namespace app
 				if (shoot[i].active)
 				{
 					//DrawRectangleRec(shoot[i].rec, shoot[i].color);
-					DrawTextureV(shootTexture, { shoot[i].rec.x - 3.5f, shoot[i].rec.y - 3.5f }, WHITE);
+					DrawTextureEx(shootTexture, { shoot[i].rec.x - shootScalePos.x + 5 ,shoot[i].rec.y - shootScalePos.y }, 0, shootScale, WHITE);
 				}
 			}
 		}
@@ -185,6 +187,12 @@ namespace app
 			{
 				if (shoot[i].active)
 				{
+					if (resizeShootActive)
+					{
+  						shootScale = (GetScreenWidth() * 2.0f) / scaleAux;
+						shootScalePos = { (shootScale * shootImage.width) / 2 ,(shootScale * shootImage.height) / 2 };
+					}
+
 					shoot[i].rec.y -= shoot[i].speed.y * GetFrameTime();
 
 					////Collision shoot vs enemy

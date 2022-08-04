@@ -2,11 +2,13 @@
 
 #include "ship.h"
 #include "app.h"
-#include "Enemy.h"
+#include "enemy.h"
+#include "powerup.h"
 
 using namespace app;
 using namespace	ship;
 using namespace enemy;
+using namespace powerup;
 
 namespace app
 {
@@ -54,6 +56,7 @@ namespace app
 			//INITS
 			InitShip();
 			InitEnemy();
+			InitPowerUps();
 		}
 
 
@@ -80,6 +83,7 @@ namespace app
 			//updates
 			UpdateShip();
 			UpdateEnemy();
+			UpdatePowerUps();
 		}
 
 		void UpdateFrame()
@@ -96,6 +100,7 @@ namespace app
 			//Game
 			DrawShip();
 			DrawEnemy();
+			DrawPowerUps();
 
 			DrawRectangleRec(btnPause1, colorRect);
 			DrawRectangleRec(btnPause2, colorRect);
@@ -116,6 +121,7 @@ namespace app
 			UnloadEnemy();
 			UnloadTexture(backTexture);
 			UnloadImage(backImage);
+			UnloadPowerUps();
 		}
 	}
 }
