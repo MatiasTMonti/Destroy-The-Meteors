@@ -122,6 +122,8 @@ namespace app
 
 					if (CheckCollisionCircles({ ship::shoot[a].rec.x, ship::shoot[a].rec.y }, 10, resizeShoot[a].position, resizeShoot[a].radius) && resizeShoot[a].active)
 					{
+ 						timer = 0;
+
 						if (!pauseSoundShoot)
 						{
 							PlaySound(powerupSound);
@@ -133,6 +135,17 @@ namespace app
 
   						resizeShoot[a].active = false;
 						resizeShootActive = true;
+					}
+
+					if (resizeShootActive)
+					{
+						if (timer >= 3)
+						{
+							resizeShootActive = false;
+							alreadySpawnShoot = false;
+
+							timer = 0;
+						}
 					}
 				}
 

@@ -35,6 +35,8 @@ namespace app
 
 		void InitValues()
 		{
+			victory = false;
+			gameOver = false;
 			sizeText = (GetScreenWidth() * 20) / 1600;
 			textPositionX = GetScreenWidth() * 0.01f;
 			textPositionY = GetScreenHeight() * 0.97f;

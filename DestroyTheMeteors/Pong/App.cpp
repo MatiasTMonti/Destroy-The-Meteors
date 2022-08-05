@@ -50,7 +50,6 @@ namespace app
 
 			if (pauseMusic) StopMusicStream(menuSong);
 			else PlayMusicStream(menuSong);
-			mute = false;
 		}
 		switch (currentScreen)
 		{

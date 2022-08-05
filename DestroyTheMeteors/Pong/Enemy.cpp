@@ -16,7 +16,7 @@ namespace app
 		EnemyWave wave;
 
 		int activeEnemies = 0;
-		int enemiesKill;
+		int enemiesKill = 0;
 
 		//Imagenes y texturas
 		static Image meteorImage;
@@ -98,7 +98,7 @@ namespace app
 			case First:
 				if (enemiesKill == activeEnemies)
 				{
-					enemiesKill = 0;
+  					enemiesKill = 0;
 
 					for (int i = 0; i < activeEnemies; i++)
 					{
@@ -115,7 +115,7 @@ namespace app
 			case Second:
 				if (enemiesKill == activeEnemies)
 				{
-					enemiesKill = 0;
+ 					enemiesKill = 0;
 
 					for (int i = 0; i < activeEnemies; i++)
 					{
@@ -130,10 +130,7 @@ namespace app
 				}
 				break;
 			case Third:
-				if (enemiesKill == activeEnemies)
-				{
-					victory = true;
-				}
+ 					victory = true;
 				break;
 			default:
 				break;

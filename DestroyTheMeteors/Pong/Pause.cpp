@@ -69,6 +69,13 @@ namespace app
 			colorRect4 = RED;
 			backGround = BLANK;
 
+			if (mute)
+			{
+				colorRect1.a = 120;
+			}
+			else
+				colorRect1.a = 255;
+
 
 			rect1.height = (GetScreenWidth() * 80) / scaleAux2;
 			rect1.width = (GetScreenWidth() * 255) / scaleAux2;
@@ -101,7 +108,7 @@ namespace app
 
 				if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) currentScreen = Gameplay;
 			}
-			else colorRect4.a = 255;
+			else colorRect1.a = 255;
 
 			if (CheckCollisionPointRec(mousePoint, rect3))
 			{
@@ -137,7 +144,17 @@ namespace app
 					mute = !mute;
 				}
 			}
-			else colorRect2.a = 255;
+			else
+			{
+				if (mute)
+				{
+					colorRect1.a = 120;
+				}
+				else if (!mute)
+				{
+					colorRect1.a = 255;
+				}
+			}
 		}
 
 		void DrawPause()

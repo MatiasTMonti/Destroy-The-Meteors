@@ -109,11 +109,11 @@ namespace app
 			DrawRectangleRec(rect2, colorRect2);
 			if (!victory)
 			{
-				DrawText(text2, text2PositionX, text1PositionY, sizeText1, GRAY);
+				DrawText(text1, text1PositionX, text1PositionY, sizeText1, GRAY);			
 			}
 			else
 			{
-				DrawText(text1, text1PositionX, text1PositionY, sizeText1, GRAY);
+				DrawText(text2, text2PositionX, text1PositionY, sizeText1, GRAY);
 			}
 			DrawText(text3, text3PositionX, text3PositionY, sizeText2, BLACK);
 			DrawText(text4, text4PositionX, text4PositionY, sizeText2, BLACK);

@@ -192,6 +192,11 @@ namespace app
   						shootScale = (GetScreenWidth() * 2.0f) / scaleAux;
 						shootScalePos = { (shootScale * shootImage.width) / 2 ,(shootScale * shootImage.height) / 2 };
 					}
+					else
+					{
+						shootScale = (GetScreenWidth() * 1.1f) / scaleAux;
+						shootScalePos = { (shootScale * shootImage.width) / 2 ,(shootScale * shootImage.height) / 2 };
+					}
 
 					shoot[i].rec.y -= shoot[i].speed.y * GetFrameTime();
 
